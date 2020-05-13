@@ -9,125 +9,23 @@ https://www.bsgun.cn                          -
 看见这个我希望你能够留下我信息                   -
                                               -
 ------------------------------------------------*/
-
-/*时光机右侧透明修复*/
-.bg-auto:before {
-	background: rgba(255,255,255,0)
-}
-/*时光机顶部蒙版*/
-.bg-white-opacity {
-    background-color: rgba(255, 255, 255, 0);
-}
-/*时光机留言框*/
-.streamline {
-	background: rgba(255,255,255,0)
-}
-.panel-footer {
-    border-color: rgba(255, 255, 255, 0.31);
-    background: rgba(255, 255, 255, 0);
-}
-/*时光机我的动态*/
-.wrapper.bg-white {
-    background-color: transparent;
-}
-/*时光机留言边框*/
-.streamline.b-l.m-l-lg.m-b.padder-v {
-    background-color: transparent;
-}
-/*背景*/
-#post-panel {
-	background: rgba(255,255,255,0)
-}
-/*评论框*/
-textarea#comment {
-	background-color: rgba(255,255,255,.2)!important;
-}
-/*搜索框*/
-.bg-white-pure {
-	background: rgba(255,255,255,.2)
-}
-/*文章*/
-.panel {
-	background-color: rgba(255,255,255,.2)
-}
-/*底部*/
-.bg-light {	
-	background: rgba(255,255,255,0)
-}
-/*侧边分界线*/
-.bg-white .dk,.bg-white .dker,.bg-white .lt,.bg-white .lter {
-	background-color: rgba(255,255,255,0)
-}
-/*顶栏背景*/
-header#header {
-    background-color: #ffffff00;
-}
-/*左侧栏背景*/
-aside#aside {
-    background-color: #ffffff00;
-}
-/*短代码框*/
-.tip {
-	background-color: rgba(255,255,255,.6)!important
-}
-
-/*------------------------------------------------------------------------------------------------*/
-
 /*文章标题居中*/
-.bg-light .lter, .bg-light.lter {
-    text-align: center;
-}
-/*左侧文字颜色*/
-ul.nav {
-    color: #00e8ff;
-}
-/*右侧文字颜色*/
-div#sidebar {
-    color: #00e8ff;
-}
-/*右边栏组件标题*/
-.widget-title {
-    font-weight: bold;
-}
-/*头像背景*/
- #aside .wrapper{
-	background:url(https://cdn.jsdelivr.net/gh/Catalpablog/handsome/img/headBG.gif);
-	background-size:80%;
-	background-repeat: no-repeat;
-	background-position: center;
-        color: #00e8ff;
-}
-/*底部图标颜色*/
-svg.feather.feather-rss {
-    color: #495dc3;
-}
-svg.feather.feather-settings {
-    color: #da2727;
-}
-aside#aside {
-    color: #2ba77f;
-}
-/*文章圆角和分界线*/
-.panel-small {
-    background: #ffffff00;
-}
-.b-b {
-    background-color: #ffffff00!important;
-}
-.single-post.panel {
-    border-radius: 15px;
-}
-/*时光机框*/
-.panel {
-    border-radius: 0px;
-}
-/*文章内标题居中*/
 .panel h1 {
     text-align: center
 }
 /*文章图片加阴影*/
 .wrapper-lg img{
     box-shadow: darkgrey 0px 0px 3px 3px;
+}
+/*时光机右侧透明修复*/
+.bg-auto:before {
+	background: rgba(255,255,255,0)
+}
+.hbox.hbox-auto-xs.hbox-auto-sm {
+    background-color: #f9f9f9;
+}
+.post-item-foot-icon {
+    text-align: center
 }
 /*修复手机表情*/
 .secret_comment{
@@ -137,6 +35,7 @@ aside#aside {
 .OwO.OwO-open .OwO-body {
     display: table
 }
+
 /*图标旋转放大闪光*/
 .thumb-lg {
 	width: 68px
@@ -495,16 +394,41 @@ aside#aside {
 	background-repeat:round;
 	background-image:url(https://cdn.jsdelivr.net/gh/Catalpablog/handsome/img/menherasauce.png);
 }
+
+.single-post.panel {
+    border-radius: 15px;
+}
 /*时光机框*/
 .panel {
     border-radius: 0px;
 }
-/*文章目录*/
-#toc {
-    background: #ae8aba00;
+/*头像背景*/
+ #aside .wrapper{
+	background:url(https://cdn.jsdelivr.net/gh/Catalpablog/handsome/img/headBG.gif);
+	background-size:80%;
+	background-repeat: no-repeat;
+	background-position: center;
+        color: 	#483D8B;
 }
-/*全站背景*/
-html.bg {
-    background: url(https://cdn.jsdelivr.net/gh/Catalpablog/handsome/img/transparentBG.png) center center no-repeat no-repeat fixed #6A6B6F;!important
-    background-size: cover;
+/*文章标题居中*/
+.bg-light .lter, .bg-light.lter {
+    text-align: center;
+}
+/*右边栏组件标题*/
+.widget-title {
+    font-weight: bold;
+}
+/*首页顶部背景*/
+header.bg-light.lter.b-b.wrapper-md {
+    background-image: url(https://cdn.jsdelivr.net/gh/Catalpablog/handsome/img/SYBG.png);
+    background-size:100% 100%;
+}
+/*时光机顶部蒙版*/
+.bg-white-opacity {
+    background-color: rgba(255, 255, 255, 0);
+}
+/*文章顶部背景*/
+#small_widgets{
+    background-image: url(https://cdn.jsdelivr.net/gh/Catalpablog/handsome/img/WZBG.png);
+    background-size:100% 100%;
 }
