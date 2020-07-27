@@ -106,7 +106,7 @@ if (canvasEl) {
         , pointerX = 0
         , pointerY = 0
         , tap = "mousedown"
-        , colors = ["#FF1461", "#00FFFF", "#00BFFF", "#1E90FF"]  //喷墨颜色
+        , colors = ["#90EE90", "#00FFFF", "#00BFFF", "#1E90FF"]  //喷墨颜色
         , setCanvasSize = debounce(function () {
         canvasEl.width = 2 * window.innerWidth,
             canvasEl.height = 2 * window.innerHeight,
